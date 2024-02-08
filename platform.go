@@ -184,7 +184,11 @@ var (
 
 	Platforms_1_20 = Platforms_1_19
 
-	PlatformsLatest = Platforms_1_20
+	Platforms_1_21 = Platforms_1_20
+
+	Platforms_1_22 = Platforms_1_21
+
+	PlatformsLatest = Platforms_1_22
 )
 
 // SupportedPlatforms returns the full list of supported platforms for
@@ -229,6 +233,8 @@ func SupportedPlatforms(v string) []Platform {
 		{">= 1.18, < 1.19", Platforms_1_18},
 		{">= 1.19, < 1.20", Platforms_1_19},
 		{">= 1.20, < 1.21", Platforms_1_20},
+		{">= 1.21, < 1.22", Platforms_1_21},
+		{">= 1.22, < 1.23", Platforms_1_22},
 	}
 
 	for _, p := range platforms {
