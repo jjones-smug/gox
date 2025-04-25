@@ -1,4 +1,4 @@
-module github.com/authelia/gox
+module github.com/jjones-smug/gox
 
 go 1.20
 
